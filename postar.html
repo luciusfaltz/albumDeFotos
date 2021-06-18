@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Postar foto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h2>Postar foto</h2>
+	<form action="postagem.php" method="POST" enctype="multipart/form-data">
+		Descrição<br><br><textarea type="text" name="descricao" placeholder="Descrição..."></textarea><br><br><br>
+		<input style="font-family: 'Raleway', sans-serif;" type="file" name="foto"><br><br>
+		<input type="submit" value="Enviar"><br><br>	
+	</form>
+	<a href="album.php"><button>Voltar para o álbum</button></a>
+</body>
+</html>
